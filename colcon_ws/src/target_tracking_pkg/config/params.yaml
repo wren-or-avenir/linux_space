@@ -1,0 +1,11 @@
+paper_tracker_node:
+  ros__parameters:
+    image_topic: "/image_raw"
+    b_min: 193     
+    b_max: 255
+    g_min: 195
+    g_max: 255
+    r_min: 176
+    r_max: 255
+    min_area_ratio: 5.0
+    debug: True

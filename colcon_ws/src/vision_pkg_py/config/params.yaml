@@ -1,0 +1,11 @@
+vision_node:
+  ros__parameters:
+    image_topic: "/image_raw"
+    b_min: 26     # 填入校准后的值
+    b_max: 117
+    g_min: 19
+    g_max: 126
+    r_min: 136
+    r_max: 255
+    min_area_ratio: 5.0
+    debug: True
